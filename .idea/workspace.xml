@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d798334b-6772-4c22-a5c3-e3e17d2d9d16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cod.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/controller/ControllerAcervo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/model/ModelLivros.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/repository/RepositoryAcervo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/services/ServicesAcervo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tabalho_bd/tabalho_bd.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/amb.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/box_umidade.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/mescla_temp_e_amb.py" afterDir="false" />
@@ -26,8 +29,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
@@ -56,9 +67,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="wefgwe" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="br.com.joquempo_system.Main" />
       <module name="joquempo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767548922363</updated>
-      <workItem from="1767548924083" duration="732000" />
+      <workItem from="1767548924083" duration="6615000" />
     </task>
     <servers />
   </component>
