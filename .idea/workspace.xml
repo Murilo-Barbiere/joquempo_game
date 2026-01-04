@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d798334b-6772-4c22-a5c3-e3e17d2d9d16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/controller/ControllerAcervo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/model/ModelLivros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/repository/RepositoryAcervo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/services/ServicesAcervo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/amb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/box_umidade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/mescla_temp_e_amb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/temperatura.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/umidade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/violino_comp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/weatherHistory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../to do list/to do list/src/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../to do list/to do list/src/App.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="37npvki4NqKPZDoXcJVa0H1IIkB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/cod/joquempo/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="joquempo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d798334b-6772-4c22-a5c3-e3e17d2d9d16" name="Changes" comment="" />
+      <created>1767548922363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767548922363</updated>
+      <workItem from="1767548924083" duration="732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
