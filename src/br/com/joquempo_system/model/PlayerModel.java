@@ -1,11 +1,11 @@
 package br.com.joquempo_system.model;
 
-public class Player {
+public class PlayerModel {
     private String nome;
     private String senha;
     private int numeroVitorias;
 
-    Player(String nome, String senha, int numeroVitorias){
+    PlayerModel(String nome, String senha, int numeroVitorias){
         this.nome = nome;
         this.senha = senha;
         this.numeroVitorias = numeroVitorias;
