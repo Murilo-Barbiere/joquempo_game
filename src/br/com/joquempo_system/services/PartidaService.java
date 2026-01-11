@@ -4,10 +4,5 @@ import br.com.joquempo_system.model.PlayerModel;
 
 import java.util.HashMap;
 
-public class PertidaService {
-    public static String addPlayerEmRegistro(PlayerModel player, HashMap registroDePlayer){
-        
-    }
-
-
+public class PartidaService {
 }
