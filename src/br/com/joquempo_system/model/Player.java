@@ -2,10 +2,12 @@ package br.com.joquempo_system.model;
 
 public class Player {
     private String nome;
+    private String senha;
     private int numeroVitorias;
 
-    Player(String nome, int numeroVitorias){
+    Player(String nome, String senha, int numeroVitorias){
         this.nome = nome;
+        this.senha = senha;
         this.numeroVitorias = numeroVitorias;
     }
 
