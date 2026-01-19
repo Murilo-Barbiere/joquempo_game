@@ -1,19 +1,20 @@
 package br.com.joquempo_system.repository;
 
-import br.com.joquempo_system.model.PartidaModel;
-import br.com.joquempo_system.model.PlayerModel;
+import br.com.joquempo_system.model.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class PartidasRepository {
     private List<PartidaModel> partidas = new ArrayList<>();
 
-    public PartidasRepository() {
+    public void criaPartidaVsPlayer(PlayerModel player1, PlayerModel player2, Optional<PlayerModel> vencedor){
+        this.partidas.add(new PartidaVsPlayerModel(player1, player2, vencedor));
     }
 
-    public void CriaPartida(PlayerModel player1, PlayerModel player2, PlayerModel vencedor){
-        this.partidas.add(new PartidaModel(player1, player2, vencedor));
+    public void criaPartidaVsMaquina(PlayerModel Player, Optional<PlayerModel> vencedor){
+        this.partidas.add(new PartidaVsMaquinaModel(Player, vencedor));
     }
 
     public PartidaModel retornaPartida(int indice){
