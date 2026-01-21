@@ -13,4 +13,5 @@ public class Menu {
         return "1 - vs player\n" +
                 "2 - vs maquina\n";
     }
+
 }

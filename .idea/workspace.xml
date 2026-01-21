@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/model/ModelLivros.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/repository/RepositoryAcervo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/services/ServicesAcervo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tabalho_bd/tabalho_bd.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/amb.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/box_umidade.py" afterDir="false" />
@@ -21,10 +20,8 @@
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/weatherHistory.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PlayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PlayerModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PlayersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PlayersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/PartidaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/Aluno.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/src/Aluno.java" beforeDir="false" />
@@ -109,7 +106,7 @@
       <workItem from="1768832147728" duration="9000" />
       <workItem from="1768838520267" duration="1989000" />
       <workItem from="1768909778829" duration="6435000" />
-      <workItem from="1769000190075" duration="1785000" />
+      <workItem from="1769000190075" duration="4967000" />
     </task>
     <servers />
   </component>

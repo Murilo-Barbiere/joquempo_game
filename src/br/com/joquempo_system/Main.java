@@ -1,7 +1,9 @@
 package br.com.joquempo_system;
 
+import br.com.joquempo_system.model.PlayerModel;
 import br.com.joquempo_system.services.*;
 
+import java.util.Optional;
 import java.util.Scanner;
 
 public class Main {
@@ -11,36 +13,39 @@ public class Main {
 
         int escolha;
         int escolhaModoJogo;
-        String nome;
-        String senha;
         boolean existeJogador;
 
         while (true){
             System.out.printf(Menu.menuPrincipal());
             escolha = scanner.nextInt();
+
             switch (escolha){
                 case 1:
                     System.out.printf(Menu.menuSelecaoModeJogo());
+                    //VS Player = 1, VS maquina = 2.
                     escolhaModoJogo = scanner.nextInt();
 
-                    //player = 1, maquina = 2.
                     if(escolhaModoJogo == 1){
-                        for (int i = 0; i < 2; i++) {
-                            //player1
-                            System.out.println("nome do jogador:");
-                            nome = scanner.next();
-                            //player2
-                            System.out.println("senha:");
-                            senha = scanner.next();
+                        System.out.println("digite nome: ");
+                        String nome1 = scanner.next();
+                        System.out.println("digite senha: ");
+                        String senha1 = scanner.next();
 
-                            existeJogador = gameService.logarPlayerExistente(nome,senha);
-                            if (!existeJogador){
-                                System.out.println("jogador nao registrado");
-                                break;
-                            }
+                        System.out.println("digite nome: ");
+                        String nome2 = scanner.next();
+                        System.out.println("digite senha: ");
+                        String senha2 = scanner.next();
+
+                        if(gameService.playerIsPresent(nome1) && gameService.playerIsPresent(nome2)){
+                            PlayerModel player1 = gameService.logarPlayerExistente(nome1,senha1).get();
+                            PlayerModel player2 = gameService.logarPlayerExistente(nome2,senha2).get();
+
+                            System.out.println("");
                         }
+                        else break;
+
                     }
-                    break;
+
                 case 2:
                     System.out.println("'-'");
                     break;

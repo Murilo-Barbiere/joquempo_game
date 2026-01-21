@@ -13,13 +13,17 @@ public class GameService {
         this.playersRepository.add(nome, new PlayerModel(nome, senha));
     }
 
-    public boolean logarPlayerExistente(String nome, String senha){
+    public Optional<PlayerModel> logarPlayerExistente(String nome, String senha){
         Optional<PlayerModel> optionalPlayer = playersRepository.retornaPlayer(nome);
 
-        if(optionalPlayer.isPresent()){
-            return true;
+        if(optionalPlayer.isPresent() && optionalPlayer.get().getSenha().equals(senha)){
+            return optionalPlayer;
         }
-        return false;
+        return Optional.empty();
+    }
+
+    public boolean playerIsPresent(String nome){
+        return playersRepository.retornaPlayer(nome).isPresent();
     }
 
     public int jogadaMaquina(){
