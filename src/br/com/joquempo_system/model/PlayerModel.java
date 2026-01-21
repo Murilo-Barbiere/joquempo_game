@@ -5,10 +5,9 @@
         private String senha;
         private int numeroVitorias;
 
-        PlayerModel(String nome, String senha, int numeroVitorias){
+        public PlayerModel(String nome, String senha){
             this.nome = nome;
             this.senha = senha;
-            this.numeroVitorias = numeroVitorias;
         }
 
         public String getNome() {

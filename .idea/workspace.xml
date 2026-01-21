@@ -10,9 +10,7 @@
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/model/ModelLivros.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/repository/RepositoryAcervo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crudbibliotca/src/main/java/com/crudbiblioteca/crudbibliotca/services/ServicesAcervo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaVsMaquinaModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaVsPlayerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tabalho_bd/tabalho_bd.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/amb.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/box_umidade.py" afterDir="false" />
@@ -23,9 +21,10 @@
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/weatherHistory.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PlayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PlayerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PartidasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PartidasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PlayersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PlayersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/PartidaService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/Aluno.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/src/Aluno.java" beforeDir="false" />
@@ -61,7 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -106,11 +105,25 @@
       <workItem from="1767548924083" duration="6615000" />
       <workItem from="1768136022048" duration="2818000" />
       <workItem from="1768157586418" duration="4028000" />
-      <workItem from="1768824588657" duration="3278000" />
+      <workItem from="1768824588657" duration="6756000" />
+      <workItem from="1768832147728" duration="9000" />
+      <workItem from="1768838520267" duration="1989000" />
+      <workItem from="1768909778829" duration="6435000" />
+      <workItem from="1769000190075" duration="1785000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
