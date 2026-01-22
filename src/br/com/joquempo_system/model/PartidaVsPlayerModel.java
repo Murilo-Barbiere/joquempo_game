@@ -1,13 +1,17 @@
 package br.com.joquempo_system.model;
 
-import java.util.Optional;
 
 public class PartidaVsPlayerModel extends PartidaModel {
     private PlayerModel p1;
     private PlayerModel p2;
 
-    public PartidaVsPlayerModel(PlayerModel p1, PlayerModel p2, Optional<PlayerModel> vencedor) {
+    public PartidaVsPlayerModel(PlayerModel p1, PlayerModel p2, PlayerModel vencedor) {
         super(vencedor);
+        this.p1 = p1;
+        this.p2 = p2;
+    }
+
+    public PartidaVsPlayerModel(PlayerModel p1, PlayerModel p2) {
         this.p1 = p1;
         this.p2 = p2;
     }

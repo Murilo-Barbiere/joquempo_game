@@ -20,8 +20,8 @@
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/weatherHistory.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PlayersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PlayersRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/Aluno.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/src/Aluno.java" beforeDir="false" />
@@ -55,21 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/cod/joquempo/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/cod/joquempo/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="wefgwe" />
@@ -106,7 +106,8 @@
       <workItem from="1768832147728" duration="9000" />
       <workItem from="1768838520267" duration="1989000" />
       <workItem from="1768909778829" duration="6435000" />
-      <workItem from="1769000190075" duration="4967000" />
+      <workItem from="1769000190075" duration="6515000" />
+      <workItem from="1769080036129" duration="1835000" />
     </task>
     <servers />
   </component>

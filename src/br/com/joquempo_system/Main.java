@@ -3,7 +3,6 @@ package br.com.joquempo_system;
 import br.com.joquempo_system.model.PlayerModel;
 import br.com.joquempo_system.services.*;
 
-import java.util.Optional;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +12,6 @@ public class Main {
 
         int escolha;
         int escolhaModoJogo;
-        boolean existeJogador;
 
         while (true){
             System.out.printf(Menu.menuPrincipal());
@@ -40,12 +38,16 @@ public class Main {
                             PlayerModel player1 = gameService.logarPlayerExistente(nome1,senha1).get();
                             PlayerModel player2 = gameService.logarPlayerExistente(nome2,senha2).get();
 
-                            System.out.println("");
+                            System.out.println(Menu.menuDeJogada());
+                            int jogada = scanner.nextInt();
+
                         }
-                        else break;
+                        else{
+                            System.out.println("jogador nao existente");
+                            break;
+                        }
 
                     }
-
                 case 2:
                     System.out.println("'-'");
                     break;

@@ -1,6 +1,8 @@
 package br.com.joquempo_system.services;
 
+import br.com.joquempo_system.model.PartidaModel;
 import br.com.joquempo_system.model.PlayerModel;
+import br.com.joquempo_system.repository.PartidasRepository;
 import br.com.joquempo_system.repository.PlayersRepository;
 
 import java.util.Optional;
@@ -8,6 +10,7 @@ import java.util.Random;
 
 public class GameService {
     PlayersRepository playersRepository = new PlayersRepository();
+    PartidasRepository partidasRepository = new PartidasRepository();
 
     public void registrarNovoPlayer(String nome, String senha){
         this.playersRepository.add(nome, new PlayerModel(nome, senha));
@@ -40,5 +43,13 @@ public class GameService {
             return 2;
         }
         return 1;
+    }
+    public void partidaVsPlayer(PlayerModel player1, PlayerModel player2, int escolha1, int escolha2){
+        int numeroDoVencedor = retonaNumeroDoVencedor(escolha1, escolha2);
+
+        if(numeroDoVencedor == 1){
+            partidasRepository.criaPartidaVsPlayer(player1, player2, player1);
+        }
+
     }
 }

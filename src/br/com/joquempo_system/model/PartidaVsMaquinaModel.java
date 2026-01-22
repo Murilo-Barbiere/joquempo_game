@@ -1,12 +1,14 @@
 package br.com.joquempo_system.model;
 
-import java.util.Optional;
-
 public class PartidaVsMaquinaModel extends PartidaModel {
     private PlayerModel player;
 
-    public PartidaVsMaquinaModel(PlayerModel player, Optional<PlayerModel> vencedor) {
+    public PartidaVsMaquinaModel(PlayerModel player, PlayerModel vencedor) {
         super(vencedor);
+        this.player = player;
+    }
+
+    public PartidaVsMaquinaModel(PlayerModel player) {
         this.player = player;
     }
 

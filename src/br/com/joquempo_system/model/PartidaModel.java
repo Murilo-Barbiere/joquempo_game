@@ -1,18 +1,17 @@
 package br.com.joquempo_system.model;
 
-import java.util.Optional;
-
 public abstract class PartidaModel {
-    private Optional<PlayerModel> vencedor;
+    private PlayerModel vencedor;
 
-    public PartidaModel(Optional<PlayerModel> vencedor) {
+    public PartidaModel(PlayerModel vencedor) {
         this.vencedor = vencedor;
     }
+    public PartidaModel() {}
 
-    public Optional<PlayerModel> getVencedor() {
+    public PlayerModel getVencedor() {
         return vencedor;
     }
-    public void setVencedor(Optional<PlayerModel> vencedor) {
+    public void setVencedor(PlayerModel vencedor) {
         this.vencedor = vencedor;
     }
 }
