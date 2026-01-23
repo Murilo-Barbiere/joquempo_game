@@ -1,6 +1,8 @@
 package br.com.joquempo_system.services;
 
 import br.com.joquempo_system.model.PartidaModel;
+import br.com.joquempo_system.model.PartidaVsMaquinaModel;
+import br.com.joquempo_system.model.PartidaVsPlayerModel;
 import br.com.joquempo_system.model.PlayerModel;
 import br.com.joquempo_system.repository.PartidasRepository;
 import br.com.joquempo_system.repository.PlayersRepository;
@@ -90,5 +92,22 @@ public class GameService {
         Optional<PlayerModel> optPlayer = Optional.ofNullable(playersRepository.retornaPlayer(nome));
         if(optPlayer.isEmpty()) return "jogador nao existe\n";
         return optPlayer.get().toString();
+    }
+
+    public String retornaPartida(int indice){
+        PartidaModel partida = partidasRepository.retornaPartida(indice);
+
+        if(partida instanceof PartidaVsPlayerModel){
+            return ((PartidaVsPlayerModel) partida).getP1().toString()+
+                    "VS \n"+
+                    ((PartidaVsPlayerModel)partida).getP2().toString();
+        }
+        return ((PartidaVsMaquinaModel) partida).getPlayer().toString()+
+                "VS\n"+
+                "maquina";
+    }
+
+    public int retornaSizePartidas(){
+        return partidasRepository.getSize();
     }
 }

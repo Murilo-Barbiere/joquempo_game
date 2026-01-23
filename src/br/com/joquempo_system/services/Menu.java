@@ -6,6 +6,7 @@ public class Menu {
                 "2 - registrar novo jogador\n" +
                 "2 - Listar jogador e vitorias\n" +
                 "3 - Listar partidas e seus jogadores\n" +
+                "4 - mostrar partidas\n" +
                 "0 - sair\n" +
                 "escolha: ";
     }

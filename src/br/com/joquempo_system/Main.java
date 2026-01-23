@@ -98,14 +98,36 @@ public class Main {
                             System.out.println("partida teve um "+resultadoPartida);
                             continue;
                         }
-                        System.out.println("partida "+resultadoPartida);
+                        System.out.println(resultadoPartida+" venceu");
                     }
                 }
+                case 2 -> {
+                    System.out.println("digite nome do player: ");
+                    nome = scanner.next();
+                    System.out.println("digite senha do player: ");
+                    senha = scanner.next();
+
+                    System.out.println(gameService.criaJogador(nome, senha));
+                }
                 //listar jogadores
-                case 3 ->{
+                case 3 -> {
                     System.out.println("nome do jogador: ");
                     nome = scanner.next();
                     System.out.println(gameService.mostraJogadorPorNome(nome));
+                }
+                case 4 -> {
+                    int sizePartidas = gameService.retornaSizePartidas();
+                    if(sizePartidas == 0){
+                        System.out.println("\nsem partidas jogadas\n");
+                        continue;
+                    }
+
+                    for (int i = 0; i < sizePartidas; i++) {
+                        System.out.println("_________________________________");
+                        System.out.println("Partida "+(i+1)+":");
+                        System.out.println(gameService.retornaPartida(i));
+                        System.out.println("_________________________________");
+                    }
                 }
                 case 0 -> {
                     return;

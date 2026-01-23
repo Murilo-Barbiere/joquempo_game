@@ -24,6 +24,9 @@ public class PartidasRepository {
     }
 
     public PartidaModel retornaPartida(int indice){
-        return this.partidas.get(indice-1);
+        return this.partidas.get(indice);
+    }
+    public int getSize(){
+        return this.partidas.size();
     }
 }
