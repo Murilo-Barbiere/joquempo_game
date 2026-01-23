@@ -4,6 +4,7 @@ import br.com.joquempo_system.model.PartidaModel;
 import br.com.joquempo_system.model.PlayerModel;
 import br.com.joquempo_system.repository.PartidasRepository;
 import br.com.joquempo_system.repository.PlayersRepository;
+import org.w3c.dom.ls.LSOutput;
 
 import java.util.Optional;
 import java.util.Random;
@@ -12,12 +13,16 @@ public class GameService {
     PlayersRepository playersRepository = new PlayersRepository();
     PartidasRepository partidasRepository = new PartidasRepository();
 
-    public void registrarNovoPlayer(String nome, String senha){
-        this.playersRepository.add(nome, new PlayerModel(nome, senha));
+    public String criaJogador(String nome, String senha){
+        if(Optional.ofNullable(playersRepository.retornaPlayer(nome)).isEmpty()){
+            playersRepository.add(nome,senha);
+            return "jogador "+ nome + " registrado";
+        }
+        return "jogador "+ nome + " nao registrado";
     }
 
     public Optional<PlayerModel> logarPlayerExistente(String nome, String senha){
-        Optional<PlayerModel> optionalPlayer = playersRepository.retornaPlayer(nome);
+        Optional<PlayerModel> optionalPlayer = Optional.ofNullable(playersRepository.retornaPlayer(nome));
 
         if(optionalPlayer.isPresent() && optionalPlayer.get().getSenha().equals(senha)){
             return optionalPlayer;
@@ -25,14 +30,9 @@ public class GameService {
         return Optional.empty();
     }
 
-    public boolean playerIsPresent(String nome){
-        return playersRepository.retornaPlayer(nome).isPresent();
-    }
-
     public int jogadaMaquina(){
         return new Random().nextInt(3) + 1;
     }
-
     //1 pedra
     //2 papel
     //3 tesoura
@@ -44,12 +44,51 @@ public class GameService {
         }
         return 1;
     }
-    public void partidaVsPlayer(PlayerModel player1, PlayerModel player2, int escolha1, int escolha2){
+    public Optional<PlayerModel> partidaVsPlayer(PlayerModel player1, PlayerModel player2, int escolha1, int escolha2){
         int numeroDoVencedor = retonaNumeroDoVencedor(escolha1, escolha2);
 
-        if(numeroDoVencedor == 1){
-            partidasRepository.criaPartidaVsPlayer(player1, player2, player1);
-        }
+        return switch (numeroDoVencedor) {
+            case 1 -> {
+                partidasRepository.criaPartidaVsPlayer(player1, player2, player1);
+                player1.ganhou();
+                yield Optional.of(player1);
+            }
+            case 2 -> {
+                partidasRepository.criaPartidaVsPlayer(player1, player2, player2);
+                player2.ganhou();
+                yield Optional.of(player2);
+            }
+            case 0 -> {
+                partidasRepository.criaPartidaVsPlayer(player1, player2);
+                yield Optional.empty();
+            }
+            default -> Optional.empty();
+        };
+    }
+    public String partidaVsMaquina(PlayerModel player, int escolha){
+        int numeroDoVencedor = retonaNumeroDoVencedor(escolha, jogadaMaquina());
 
+        return switch (numeroDoVencedor) {
+            case 1 -> {
+                partidasRepository.criaPartidaVsMaquina(player, "player");
+                player.ganhou();
+                yield "player";
+            }
+            case 2 -> {
+                partidasRepository.criaPartidaVsMaquina(player, "maquina");
+                yield "maquina";
+            }
+            case 0 -> {
+                partidasRepository.criaPartidaVsMaquina(player, "empate");
+                yield "empate";
+            }
+            default -> null;
+        };
+    }
+
+    public String mostraJogadorPorNome(String nome){
+        Optional<PlayerModel> optPlayer = Optional.ofNullable(playersRepository.retornaPlayer(nome));
+        if(optPlayer.isEmpty()) return "jogador nao existe\n";
+        return optPlayer.get().toString();
     }
 }

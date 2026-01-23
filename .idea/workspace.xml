@@ -20,6 +20,12 @@
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/weatherHistory.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaVsMaquinaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaVsMaquinaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaVsPlayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PartidaVsPlayerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PlayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/model/PlayerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PartidasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PartidasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PlayersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PlayersRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/Aluno.class" beforeDir="false" />
@@ -73,6 +79,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="wefgwe" />
+      <command value="optionalPlayer" />
     </option>
   </component>
   <component name="RunManager">
@@ -107,7 +114,9 @@
       <workItem from="1768838520267" duration="1989000" />
       <workItem from="1768909778829" duration="6435000" />
       <workItem from="1769000190075" duration="6515000" />
-      <workItem from="1769080036129" duration="1835000" />
+      <workItem from="1769080036129" duration="10410000" />
+      <workItem from="1769094147761" duration="3274000" />
+      <workItem from="1769130427488" duration="2080000" />
     </task>
     <servers />
   </component>

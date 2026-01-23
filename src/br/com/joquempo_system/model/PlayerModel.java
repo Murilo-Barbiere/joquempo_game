@@ -29,10 +29,7 @@
 
         @Override
         public String toString() {
-            return "Player{" +
-                    "nome='" + nome + '\'' +
-                    ", numeroVitorias=" + numeroVitorias +
-                    '}';
+            return "Player:" + nome + "\nnumeroVitorias: " + numeroVitorias+ "\n";
         }
 
         public void ganhou(){

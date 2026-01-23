@@ -16,7 +16,7 @@ public class PartidasRepository {
         this.partidas.add(new PartidaVsPlayerModel(player1, player2));
     }
 
-    public void criaPartidaVsMaquina(PlayerModel Player, PlayerModel vencedor){
+    public void criaPartidaVsMaquina(PlayerModel Player, String vencedor){
         this.partidas.add(new PartidaVsMaquinaModel(Player, vencedor));
     }
     public void criaPartidaVsMaquina(PlayerModel Player){

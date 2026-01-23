@@ -4,9 +4,9 @@ package br.com.joquempo_system.model;
 public class PartidaVsPlayerModel extends PartidaModel {
     private PlayerModel p1;
     private PlayerModel p2;
+    private PlayerModel vencedor;
 
     public PartidaVsPlayerModel(PlayerModel p1, PlayerModel p2, PlayerModel vencedor) {
-        super(vencedor);
         this.p1 = p1;
         this.p2 = p2;
     }
@@ -14,6 +14,14 @@ public class PartidaVsPlayerModel extends PartidaModel {
     public PartidaVsPlayerModel(PlayerModel p1, PlayerModel p2) {
         this.p1 = p1;
         this.p2 = p2;
+    }
+
+    public PlayerModel getVencedor() {
+        return vencedor;
+    }
+
+    public void setVencedor(PlayerModel vencedor) {
+        this.vencedor = vencedor;
     }
 
     public PlayerModel getP1() {
@@ -30,5 +38,13 @@ public class PartidaVsPlayerModel extends PartidaModel {
 
     public void setP2(PlayerModel p2) {
         this.p2 = p2;
+    }
+
+    @Override
+    public String toString() {
+        return "PartidaVsPlayerModel{" +
+                "p1=" + p1 +
+                ", p2=" + p2 +
+                '}';
     }
 }
