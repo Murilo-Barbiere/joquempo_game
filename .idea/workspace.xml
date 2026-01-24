@@ -19,10 +19,6 @@
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/graficos/violino_comp.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../trabalho_estatistica/weatherHistory.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PartidasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/repository/PartidasRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/joquempo_system/services/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/Aluno.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/bin/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../to do list/to do list/src/Aluno.java" beforeDir="false" />
@@ -43,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -112,7 +109,7 @@
       <workItem from="1769080036129" duration="10410000" />
       <workItem from="1769094147761" duration="3274000" />
       <workItem from="1769130427488" duration="2594000" />
-      <workItem from="1769167589934" duration="2613000" />
+      <workItem from="1769167589934" duration="3632000" />
     </task>
     <servers />
   </component>
